@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Tênis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sneaker Store</h1>
+        <div class="filtros">
+            <input type="text" id="busca" placeholder="Buscar tênis...">
+            <select id="categoria">
+                <option value="todos">Todas as Marcas</option>
+                <option value="nike">Nike</option>
+                <option value="adidas">Adidas</option>
+                <option value="puma">Puma</option>
+                <option value="jordan">Air Jordan</option>
+            </select>
+            <select id="preco">
+                <option value="todos">Faixa de Preço</option>
+                <option value="0-200">Até R$ 200</option>
+                <option value="200-500">R$ 200 - R$ 500</option>
+                <option value="500+">Acima de R$ 500</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="produtos-grid" id="produtos-container">
+            <!-- Tênis serão inseridos aqui via JavaScript -->
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
